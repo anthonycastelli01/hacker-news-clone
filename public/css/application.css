@@ -1,0 +1,20 @@
+.container {
+  width: 750px;
+  margin: auto;
+}
+
+.navigation {
+  background: #ff6600;
+}
+.navigation img {
+  border: 1px solid #ffffff;
+  margin: 3px;
+  display: inline;
+}
+.navigation h3 {
+  display: inline;
+}
+
+.posts {
+  background: #F6F6EF;
+}
