@@ -1,20 +1,41 @@
 .container {
   width: 750px;
   margin: auto;
+  margin-top: 8px;
 }
 
 .navigation {
   background: #ff6600;
+  padding: 2px;
+  height: 20px;
 }
 .navigation img {
   border: 1px solid #ffffff;
-  margin: 3px;
   display: inline;
 }
 .navigation h3 {
   display: inline;
+  padding-bottom: 2px;
+}
+.navigation nav {
+  display: inline;
+}
+.navigation ul {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation li {
+  display: inline;
+}
+.navigation a {
+  text-decoration: none;
 }
 
 .posts {
   background: #F6F6EF;
+}
+.posts ul {
+  list-style: none;
 }
