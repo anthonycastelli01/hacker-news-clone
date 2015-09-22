@@ -1,5 +1,7 @@
+<% erb :navigation %>
+
 <ul>
 <% @posts.each do |post| %>
-  <li></li>
+  <li><%= post.title %></li>
 <% end %>
 </ul>
