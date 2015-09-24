@@ -33,9 +33,20 @@
   text-decoration: none;
 }
 
+.login-box form{
+  margin: 10px;
+}
+.registration-box form{
+  display: block;
+  margin: 10px;
+}
+
 .posts {
   background: #F6F6EF;
 }
 .posts ul {
   list-style: none;
+}
+.posts a {
+  text-decoration: none;
 }

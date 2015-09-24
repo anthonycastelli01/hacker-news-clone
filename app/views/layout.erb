@@ -4,13 +4,15 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/application.css">
 
-  <script src="js/jquery.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
   <script src="/js/application.js"></script>
 
   <title></title>
 </head>
 <body>
   <div class="container">
+    <%= erb :navigation %>
+
     <%= yield %>
   </div>
 </body>
